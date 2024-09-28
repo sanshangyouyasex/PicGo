@@ -2,6 +2,9 @@
   "name": "picgo",
   "version": "2.4.0-beta.8",
   "private": true,
+   "engines": {
+    "node": ">=18 <20"
+  },
   "scripts": {
     "build": "vue-cli-service electron:build",
     "lint": "vue-cli-service lint",
